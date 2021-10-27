@@ -7321,19 +7321,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/hailong/.nuget/packages/": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hailong/Workspace/DotNetCore/UserManagement/UserManagement.csproj",
+      "projectUniqueName": "E:\\workspace\\DotNetCore\\UserManagement\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "/Users/hailong/Workspace/DotNetCore/UserManagement/UserManagement.csproj",
-      "packagesPath": "/Users/hailong/.nuget/packages/",
-      "outputPath": "/Users/hailong/Workspace/DotNetCore/UserManagement/obj/",
+      "projectPath": "E:\\workspace\\DotNetCore\\UserManagement\\UserManagement.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\workspace\\DotNetCore\\UserManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/hailong/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -7398,7 +7398,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

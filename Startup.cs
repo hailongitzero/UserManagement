@@ -21,7 +21,9 @@ namespace UserManagement
         public void ConfigureServices(IServiceCollection services)
         {
 
+            services.AddCors();
             services.AddControllers();
+            
             services.AddDbContext<UserContext>(otp =>otp.UseInMemoryDatabase("Users"));
         }
 
@@ -36,6 +38,13 @@ namespace UserManagement
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            // global cors policy
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                .AllowCredentials()); // allow credentials
 
             app.UseAuthorization();
 
